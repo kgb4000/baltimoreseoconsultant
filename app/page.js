@@ -10,7 +10,9 @@ export default function Home() {
           <p>Baltimore SEO Consultant</p>
           <nav>
             <ul className="nav">
-              <li>SEO Services</li>
+              <li>
+                <Link href="#services">SEO Services</Link>
+              </li>
               <li>
                 <Link href="#me">Why Me</Link>
               </li>
@@ -33,6 +35,7 @@ export default function Home() {
               traffic, leads, and sales from Google?
             </p>
             <Button>Book Your SEO Consultation!</Button>
+            <p>If you're serious, let's have a Zoom call!</p>
           </div>
         </div>
       </section>
@@ -45,7 +48,7 @@ export default function Home() {
             <h3>#1. Your Competitors are Already Doing SEO</h3>
           </div>
           <div>
-            <h3>#2. Long-term benefits</h3>
+            <h3>#2. Get Leads Allday Everyday</h3>
           </div>
           <div>
             <h3>#3. You Gain a Competitive advantage</h3>
@@ -59,26 +62,88 @@ export default function Home() {
           <Button>Book SEO Strategy Call Now!</Button>
         </div>
       </section>
-      <section>
+      <section id="services">
         <div className="container">
           <h2 className="title">Our Baltimore SEO Services</h2>
+          <p className="subtext">
+            Here are the search engine optimization services I give to Baltimore
+            businesses to succeed online
+          </p>
           <div>
             <h3>1-on-1 SEO Consulting</h3>
+            <p>
+              Need some help with search engine optimization to get real
+              results? Work with a pro. Work with a top Baltimore SEO specialist
+              one-on-one and let's get you to the top of the search results.
+            </p>
+            <p>
+              We'll go through your website together on a Zoom call and identify
+              things to get you to the top of the search results.
+            </p>
           </div>
           <div>
-            <h3>Baltimore Local SEO</h3>
+            <h3>Baltimore Local SEO Service</h3>
+            <p>Show up when it matters th most.</p>
+            <p>
+              My Baltimore SEO company will turn your website into a lead
+              generating machine. You can appear in the map pack, and the
+              organic search, occupying more online real estate than your
+              competitors.
+            </p>
+            <p>
+              It doesn't matter if you operate in Baltimore City or Baltimore
+              County.
+            </p>
+            <p>
+              Whether you're a solo baltimore business owner or you have one
+              hundred people working in your company.
+            </p>
+            <p>
+              You can dominate the B'more local search results in your industry
+              and attract the best leads and customers.
+            </p>
           </div>
           <div>
             <h3>Keyword Research Service</h3>
+            <p>
+              Finding the best and most profitable keywords for your business
+              takes time and years of experience. I find the best keywords that
+              attract the best clients and customers.
+            </p>
+            <p>Those that spend money with your business.</p>
           </div>
           <div>
-            <h3>SEO Audit Services</h3>
+            <h3>SEO Audit Service</h3>
+            <p>
+              It's been years and you haven't figured out why your business
+              doesn't appear in the search results when you search for your
+              services.
+            </p>
+            <p>I can help you fix that.</p>
+            <p>
+              Find out what's stopping your website and your business from
+              showing up in the search results. Get an SEO audit and discover
+              what's holding your back, and how to fix so that you can get seen
+              online.
+            </p>
           </div>
           <div>
-            <h3>Link Building Services</h3>
+            <h3>Link Building Service</h3>
+            <p>
+              Does your website have backlinks? Do you know what there are? If
+              you don't have backlinks, chances are you won't rank high in
+              Google.
+            </p>
+            <p>
+              Backlinks are the trust factor that Google uses to rank you site.
+            </p>
+            <p>
+              I'll find and get you the best backlinks that help your business
+              gain trust with my safe link building methods.
+            </p>
           </div>
           <div>
-            <h3>National SEO Services</h3>
+            <h3>National SEO Service</h3>
           </div>
           <Button>Get SEO Help Today</Button>
         </div>
@@ -86,11 +151,20 @@ export default function Home() {
       <section>
         <div className="container">
           <h2 className="title">
-            With All Those Other Baltimore SEO Companies, Why Should You Work
-            With Me?
+            With All The Other Baltimore SEO Companies, Why Should You Work With
+            Me?
           </h2>
           <div>
             <h3>I Focus on the Results</h3>
+            <p>
+              Getting traffic to your website is nice, but are you making money.
+            </p>
+            <p>
+              Are you getting more phone calls and more leads? Are you getting
+              more sales? Are you getting a return on your SEO investment.
+            </p>
+            <p>That's what I care about.</p>
+            <p>Everything else doesn't really matter.</p>
           </div>
           <div>
             <h3>I Build Custom SEO Campaigns</h3>
@@ -100,6 +174,24 @@ export default function Home() {
           </div>
           <div>
             <h3>I am 100% Transparent</h3>
+            <p>
+              You will know everything I'm doing. You can call or email me with
+              any questions or concerns.
+            </p>
+            <p>
+              If you want to learn how to do SEO yourself, I'm down to teach you
+              my process.
+            </p>
+          </div>
+          <div>
+            <h3>I Never Work With Your Competition</h3>
+            <p>
+              Some SEO companies will work with anybody. Even your competiton in
+              the same city.
+            </p>
+            <p>That's not right.</p>
+            <p>When we work together, I only work for you in your industry in your city.</p>
+            <p>I'll never try to help the competiton, and I have rules and scuples I live by.</p>
           </div>
           <Button>Book Your Strategy Call Today!</Button>
         </div>
@@ -124,7 +216,13 @@ export default function Home() {
             Meet the Baltimore SEO Expert Ready to Get You More Traffic and Earn
             More Money for Your Business
           </h2>
-          <img src="/images/kgb4000-circle.jpg" className="avatar" />
+          <img
+            src="/images/kgb4000-circle.jpg"
+            className="avatar"
+            alt="Baltimore SEO Consultant - Kester Browne."
+            title="Baltimore SEO Consultant - Kester Browne."
+            loading="lazy"
+          />
           <div>
             <p>
               Hello, I’m Kester, and I have been doing search engine
