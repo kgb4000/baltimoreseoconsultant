@@ -106,9 +106,7 @@ export default function Home() {
       </section>
       <section id="faq">
         <div className="small-container">
-          <h2 className="title">
-            Frequently Asked Questions about Baltimore SEO
-          </h2>
+          <h2>Frequently Asked Questions about Baltimore SEO</h2>
           <div>
             <h3>How much does SEO cost for a business in Baltimore?</h3>
           </div>
@@ -145,7 +143,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section>
         <div className="container">
           <h2 className="title">Book Your Strategy Call</h2>
