@@ -7,6 +7,7 @@
 body {
   font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto;
   font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 header {
@@ -34,6 +35,14 @@ h2 {
   font-size: 2.5rem;
 }
 
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
 p {
   margin: 1rem 0;
   line-height: 2;
@@ -51,7 +60,17 @@ ul.nav {
 
   li {
     list-style-type: none;
+
+    a {
+      color: #000;
+      text-decoration: none;
+      font-weight: 500;
+    }
   }
+}
+
+ul.faq-list {
+  margin-left: 1.5rem;
 }
 
 section {
