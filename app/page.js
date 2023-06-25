@@ -50,100 +50,175 @@ export default function Home() {
       <section>
         <div className="container">
           <h2 className="title">
-            5 Reasons to Work With An SEO Consultant in Baltimore, Maryland
+            5 Reasons to Work With An SEO Consultant in Baltimore
           </h2>
-          <div>
-            <h3>#1. Your Competitors are Already Doing SEO</h3>
-            <p>
-              You see it every time you search for your services. Your
-              competitors on the first page. Don’t believe me? Search for one of
-              your services and see who comes up first, second, or third. It’s
-              not by luck or by accident. They understand the immense value of
-              being easily discoverable online and are using SEO strategies to
-              improve their visibility, attract more customers, and grow their
-              businesses.
-            </p>
-            <p>
-              If your business isn't utilizing SEO, you're at risk of falling
-              behind, losing potential customers to competitors who are
-              appearing in search results instead of you.
-            </p>
-            <p>
-              Every day that passes without an SEO strategy is an opportunity
-              for competitors to consolidate their online presence and
-              reputation. Additionally, the longer you wait to start SEO, the
-              more ground you'll have to make up. Remember, SEO is a long-term
-              strategy, and immediate results are rare.
-            </p>
-            <p>
-              If your competitors are doing SEO and you're not, it's not just a
-              potential loss of customers, it's an ongoing loss of market share
-              that becomes increasingly difficult to reclaim.
-            </p>
-            <p>This brings us to the second reason.</p>
-          </div>
-          <div>
-            <h3>#2. You Gain a Competitive advantage</h3>
-            <p>
-              Investing in SEO gives your business a competitive edge, helping
-              you stand out in a crowded Baltimore marketplace.
-            </p>
-            <p>
-              A well-executed SEO strategy improves your online visibility,
-              ensuring your business appears prominently in local search results
-              when potential customers are looking for your services. This
-              increased visibility directly contributes to higher website
-              traffic, more leads, and ultimately, more sales.
-            </p>
-            <p>
-              SEO also enhances user experience on your site, making it more
-              likely that site visitors will become customers. Additionally, SEO
-              can position your business as an industry leader, boosting your
-              credibility among customers. It's also worth noting that the
-              benefits of SEO are long-term, making it a sustainable competitive
-              advantage.
-            </p>
-            <p>
-              In a nutshell, SEO isn't just about keeping pace with your
-              competitors; it's about outperforming them and capturing a larger
-              share of your target market.
-            </p>
-            <p>This lead to the third reason.</p>
-          </div>
-          <div>
-            <h3>#3. Get Leads Allday Everyday</h3>
-          </div>
-          <div>
-            <h3>#4. More People Will See Your Business on Google</h3>
-          </div>
-          <div>
-            <h3>#5. It’s More Cost-effective than Social Media</h3>
-            <p>
-              Unlike social media platforms, where ongoing ad spend is often
-              necessary to reach a larger audience, the organic traffic
-              generated through SEO comes at no additional per-click or
-              per-impression cost.
-            </p>
-            <p>
-              Additionally, the effects of SEO are longer-lasting. A well-ranked
-              page can continue to attract traffic for months or even years,
-              while a social media post might lose visibility within hours or
-              days.
-            </p>
-            <p>
-              SEO also typically results in higher quality traffic, as people
-              who find your site via search engines are actively looking for the
-              products or services you offer, making them more likely to
-              convert. While both SEO and social media have their place, the
-              long-term, high-quality traffic driven by SEO often delivers a
-              better return on investment.
-            </p>
-            <p>
-              In essence, while social media can be an effective part of your
-              marketing mix, SEO is often the more cost-effective strategy for
-              sustainable, long-term growth.
-            </p>
-          </div>
+          <p className="subtext">
+            Here are some reasons you should work with a B'more SEO specialist
+            and do SEO
+          </p>
+          <Reason>
+            <img
+              src="/images/competitors-winning.png"
+              className="grid-item-1"
+              alt="Competitors winning."
+              title="Competitors winning."
+              loading="lazy"
+            />
+            <div className="grid-item-2">
+              <h3>#1. Your Competitors are Already Doing SEO</h3>
+              <p>
+                You see it every time you search for your services. Your
+                competitors on the first page. Don’t believe me? Search for one
+                of your services and see who comes up first, second, or third.
+                It’s not by luck or by accident. They understand the immense
+                value of being easily discoverable online and are using SEO
+                strategies to improve their visibility, attract more customers,
+                and grow their businesses.
+              </p>
+              <p>
+                If your business isn't utilizing SEO, you're at risk of falling
+                behind, losing potential customers to competitors who are
+                appearing in search results instead of you.
+              </p>
+              <p>
+                Every day that passes without an SEO strategy is an opportunity
+                for competitors to consolidate their online presence and
+                reputation. Additionally, the longer you wait to start SEO, the
+                more ground you'll have to make up. Remember, SEO is a long-term
+                strategy, and immediate results are rare.
+              </p>
+              <p>
+                If your competitors are doing SEO and you're not, it's not just
+                a potential loss of customers, it's an ongoing loss of market
+                share that becomes increasingly difficult to reclaim.
+              </p>
+              <p>This brings us to the second reason.</p>
+            </div>
+          </Reason>
+          <Reason>
+            <img
+              src="/images/competition.png"
+              className="grid-item-2"
+              alt="Gain a competitive edge."
+              title="Gain a competitive edge."
+              loading="lazy"
+            />
+            <div className="grid-item-1">
+              <h3>#2. You Gain a Competitive advantage</h3>
+              <p>
+                Investing in SEO gives your business a competitive edge, helping
+                you stand out in a crowded Baltimore marketplace.
+              </p>
+              <p>
+                A well-executed SEO strategy improves your online visibility,
+                ensuring your business appears prominently in local search
+                results when potential customers are looking for your services.
+                This increased visibility directly contributes to higher website
+                traffic, more leads, and ultimately, more sales.
+              </p>
+              <p>
+                SEO also enhances user experience on your site, making it more
+                likely that site visitors will become customers. Additionally,
+                SEO can position your business as an industry leader, boosting
+                your credibility among customers. It's also worth noting that
+                the benefits of SEO are long-term, making it a sustainable
+                competitive advantage.
+              </p>
+              <p>
+                In a nutshell, SEO isn't just about keeping pace with your
+                competitors; it's about outperforming them and capturing a
+                larger share of your target market.
+              </p>
+              <p>This lead to the third reason.</p>
+            </div>
+          </Reason>
+          <Reason>
+            <img
+              src="/images/leads.png"
+              className="grid-item-1"
+              alt="Get more leads."
+              title="Get more leads."
+              loading="lazy"
+            />
+            <div className="grid-item-2">
+              <h3>#3. You Get Leads All Day, Everyday</h3>
+              <p>Your website will work for you around the clock.</p>
+              <p>
+                Unlike traditional business models, a well-optimized website is
+                like a 24/7 salesperson, constantly attracting potential
+                customers.
+              </p>
+              <p>
+                This persistent lead generation is made possible because SEO
+                improves your visibility on search engines, making your business
+                easily discoverable by people searching for the products or
+                services you offer. These are not just any leads, but quality
+                leads, as search engine users are typically actively seeking
+                solutions, making them more likely to convert.
+              </p>
+              <p>
+                Furthermore, the leads generated from SEO are not limited by
+                geography; your business can attract local, national, and even
+                global customers. SEO, therefore, is not just a marketing
+                strategy, but an essential business tool that ensures your brand
+                and offerings are visible and generating leads every hour of
+                every day.
+              </p>
+              <p>This lead to the fourth reason.</p>
+            </div>
+          </Reason>
+          <Reason>
+            <img
+              src="/images/rankings.png"
+              className="grid-item-2"
+              alt="I know what I'm doing."
+              title="I know what I'm doing."
+              loading="lazy"
+            />
+            <div className="grid-item-1">
+              <h3>#4. More People Will See Your Business on Google</h3>
+            </div>
+          </Reason>
+          <Reason>
+            <img
+              src="/images/reduce-cost.png"
+              className="grid-item-1"
+              alt="Reduce ad costs."
+              title="Reduce ad costs."
+              loading="lazy"
+            />
+            <div className="grid-item-2">
+              <h3>#5. It’s More Cost-effective than Social Media</h3>
+              <p>
+                Unlike social media platforms, where ongoing ad spend is often
+                necessary to reach a larger audience, the organic traffic
+                generated through SEO comes at no additional per-click or
+                per-impression cost.
+              </p>
+              <p>Additionally, the effects of SEO are longer-lasting.</p>
+              <p>
+                A well-ranked page can continue to attract traffic for months or
+                even years, while a social media post might lose visibility
+                within hours or days.
+              </p>
+              <p>
+                SEO also typically results in higher quality traffic, as people
+                who find your site via search engines are actively looking for
+                the products or services you offer, making them more likely to
+                convert.
+              </p>
+              <p>
+                While both SEO and social media have their place, the long-term,
+                high-quality traffic driven by SEO often delivers a better
+                return on investment.
+              </p>
+              <p>
+                In essence, while social media can be an effective part of your
+                marketing mix, SEO is often the more cost-effective strategy for
+                sustainable, long-term growth.
+              </p>
+            </div>
+          </Reason>
           <div className="center">
             <Button>Book SEO Strategy Call Now!</Button>
           </div>
@@ -332,7 +407,7 @@ export default function Home() {
               loading="lazy"
             />
             <div>
-              <h3>#1. I Focus on the Results</h3>
+              <h3>#1. I Focus on Your Results</h3>
               <p>
                 As an SEO specialist, my primary focus is on delivering tangible
                 results that drive your business forward.
@@ -661,14 +736,14 @@ export default function Home() {
         </div>
       </section>
       <section>
-        <div className="container">
+        <div className="small-container">
           <h2 className="title">Book Your Strategy Call</h2>
           <p className="subtext">
-            I'll analyze your website and give you feedback to drive better SEO
-            results (fast). Book your SEO consulting now:
+            I'll analyze your website and give you feedback ASAP to drive better
+            SEO results (fast). Book your SEO consultation now:
           </p>
           <div className="center">
-            <Button>Book Your SEO Consultation Today</Button>
+            <Button>Book Your SEO Consultation Now</Button>
           </div>
         </div>
       </section>
@@ -679,6 +754,32 @@ export default function Home() {
   )
 }
 
+const Reason = styled.div`
+  margin: 2rem 0;
+  img {
+    max-width: 15rem;
+    margin: 4rem auto;
+  }
+  @media screen and (min-width: 900px) {
+    img {
+      max-width: 20rem;
+    }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .grid-item-1 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .grid-item-2 {
+    grid-column: 1;
+  }
+`
+
 const Deliverables = styled.div`
   margin: 2rem 0;
   img {
@@ -687,7 +788,7 @@ const Deliverables = styled.div`
   }
   @media screen and (min-width: 900px) {
     img {
-      max-width: 15rem;
+      max-width: 20rem;
     }
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -718,8 +819,8 @@ const Service = styled.div`
   display: flex;
   flex-direction: row;
   img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     margin-top: 1rem;
     margin-right: 2rem;
   }
