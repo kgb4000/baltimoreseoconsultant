@@ -15,7 +15,7 @@ export default function Home() {
             className="logo"
             alt="Baltimore SEO Consultant"
             title="Baltimore SEO Consultant"
-            width="200px"
+            width="250px"
             heoght="auto"
           />
           <nav>
@@ -41,8 +41,8 @@ export default function Home() {
           <h1 className="title">Hello, I’m the #1 Baltimore SEO Consultant</h1>
           <div className="subtext">
             <p>
-              Need a Baltimore SEO consultant that can actually get you more
-              traffic, leads, and sales from Google?
+              I help small businesses in Baltimore get more traffic, leads, and
+              sales through SEO.
             </p>
             <a href={calendly}>
               <Button>Book Your SEO Consultation!</Button>
@@ -749,18 +749,21 @@ export default function Home() {
           <div>
             <p>
               Hello, I’m Kester, and I have been doing search engine
-              optimization in Maryland for over five years. I have ranked
-              businesses on the first page and top 5 positions in some
-              competitive industries, and I can help your business.
+              optimization in Maryland for over five years.
+            </p>
+            <p>
+              I have ranked businesses on the first page and top 5 positions.
             </p>
             <p>
               My expertise, long-standing commitment to learning, and
-              results-oriented approach set me apart and make me the optimal
-              choice for clients who want to grow their digital presence. I
-              believe in transparency, constant communication, and educating my
-              clients about the processes and techniques, empowering them to
-              make informed decisions.
+              results-oriented approach set me apart. That makes me the optimal
+              choice for clients who want to grow their digital presence.
             </p>
+            <p>
+              I believe in transparency, and constant communication. , I also
+              belive in educating my clients about the processes and techniques.
+            </p>
+            <p>I want to empowering them to make informed decisions.</p>
           </div>
         </div>
       </section>
