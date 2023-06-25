@@ -30,7 +30,7 @@ export default function Home() {
                 <Link href="#faq">FAQs</Link>
               </li>
               <li>
-                <Link href="/">Book a Consultation!</Link>
+                <Link href={calendly}>Book a Consultation!</Link>
               </li>
             </ul>
           </nav>
