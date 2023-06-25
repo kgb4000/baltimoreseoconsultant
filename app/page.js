@@ -1,4 +1,6 @@
+'use client'
 import Link from 'next/link'
+import styled from 'styled-components'
 import Button from '@/components/Button'
 
 export default function Home() {
@@ -32,7 +34,7 @@ export default function Home() {
           </nav>
         </div>
       </header>
-      <section className="hero">
+      <div className="hero">
         <div className="container">
           <h1 className="title">Hello, I’m the #1 Baltimore SEO Consultant</h1>
           <div className="subtext">
@@ -44,11 +46,11 @@ export default function Home() {
             <p>If you're serious, let's have a Zoom call!</p>
           </div>
         </div>
-      </section>
+      </div>
       <section>
         <div className="container">
           <h2 className="title">
-            5 Reasons to Work With An SEO Consultant in Baltimore
+            5 Reasons to Work With An SEO Consultant in Baltimore, Maryland
           </h2>
           <div>
             <h3>#1. Your Competitors are Already Doing SEO</h3>
@@ -56,15 +58,57 @@ export default function Home() {
               You see it every time you search for your services. Your
               competitors on the first page. Don’t believe me? Search for one of
               your services and see who comes up first, second, or third. It’s
-              not by luck or by accident. They are doing search engine
-              optimization and have an SEO company or expert doing SEO on their
-              website. They rank the keywords that people use to find the
-              services you offer.
+              not by luck or by accident. They understand the immense value of
+              being easily discoverable online and are using SEO strategies to
+              improve their visibility, attract more customers, and grow their
+              businesses.
+            </p>
+            <p>
+              If your business isn't utilizing SEO, you're at risk of falling
+              behind, losing potential customers to competitors who are
+              appearing in search results instead of you.
+            </p>
+            <p>
+              Every day that passes without an SEO strategy is an opportunity
+              for competitors to consolidate their online presence and
+              reputation. Additionally, the longer you wait to start SEO, the
+              more ground you'll have to make up. Remember, SEO is a long-term
+              strategy, and immediate results are rare.
+            </p>
+            <p>
+              If your competitors are doing SEO and you're not, it's not just a
+              potential loss of customers, it's an ongoing loss of market share
+              that becomes increasingly difficult to reclaim.
             </p>
             <p>This brings us to the second reason.</p>
           </div>
           <div>
             <h3>#2. You Gain a Competitive advantage</h3>
+            <p>
+              Investing in SEO gives your business a competitive edge, helping
+              you stand out in a crowded Baltimore marketplace.
+            </p>
+            <p>
+              A well-executed SEO strategy improves your online visibility,
+              ensuring your business appears prominently in local search results
+              when potential customers are looking for your services. This
+              increased visibility directly contributes to higher website
+              traffic, more leads, and ultimately, more sales.
+            </p>
+            <p>
+              SEO also enhances user experience on your site, making it more
+              likely that site visitors will become customers. Additionally, SEO
+              can position your business as an industry leader, boosting your
+              credibility among customers. It's also worth noting that the
+              benefits of SEO are long-term, making it a sustainable competitive
+              advantage.
+            </p>
+            <p>
+              In a nutshell, SEO isn't just about keeping pace with your
+              competitors; it's about outperforming them and capturing a larger
+              share of your target market.
+            </p>
+            <p>This lead to the third reason.</p>
           </div>
           <div>
             <h3>#3. Get Leads Allday Everyday</h3>
@@ -74,94 +118,204 @@ export default function Home() {
           </div>
           <div>
             <h3>#5. It’s More Cost-effective than Social Media</h3>
+            <p>
+              Unlike social media platforms, where ongoing ad spend is often
+              necessary to reach a larger audience, the organic traffic
+              generated through SEO comes at no additional per-click or
+              per-impression cost.
+            </p>
+            <p>
+              Additionally, the effects of SEO are longer-lasting. A well-ranked
+              page can continue to attract traffic for months or even years,
+              while a social media post might lose visibility within hours or
+              days.
+            </p>
+            <p>
+              SEO also typically results in higher quality traffic, as people
+              who find your site via search engines are actively looking for the
+              products or services you offer, making them more likely to
+              convert. While both SEO and social media have their place, the
+              long-term, high-quality traffic driven by SEO often delivers a
+              better return on investment.
+            </p>
+            <p>
+              In essence, while social media can be an effective part of your
+              marketing mix, SEO is often the more cost-effective strategy for
+              sustainable, long-term growth.
+            </p>
           </div>
-          <Button>Book SEO Strategy Call Now!</Button>
+          <div className="center">
+            <Button>Book SEO Strategy Call Now!</Button>
+          </div>
         </div>
       </section>
       <section id="services">
         <div className="container">
           <h2 className="title">My Baltimore SEO Services</h2>
           <p className="subtext">
-            Here are the search engine optimization services I give to Baltimore
-            businesses to succeed online
+            Here's what I give Baltimore business owners to succeed online.
           </p>
-          <div>
-            <h3>1-on-1 SEO Consulting</h3>
-            <p>
-              Need some help with search engine optimization to get real
-              results? Work with a pro. Work with a top Baltimore SEO specialist
-              one-on-one and let's get you to the top of the search results.
-            </p>
-            <p>
-              We'll go through your website together on a Zoom call and identify
-              things to get you to the top of the search results.
-            </p>
+          <Services>
+            <Service>
+              <img
+                src="/images/one-on-one-consulting.png"
+                className="icon"
+                loading="lazy"
+              />
+              <div>
+                <h3>1-on-1 SEO Consulting</h3>
+                <p>
+                  Need some help with search engine optimization to get real
+                  results?
+                </p>
+                <p>Work with a pro.</p>
+                <p>
+                  Work with a top Baltimore SEO specialist one-on-one and let's
+                  get you to the top of the search results.
+                </p>
+                <p>
+                  We'll go through your website together on a Zoom call and
+                  identify things to get you to the top of the search results.
+                </p>
+                <p>NO B.S.</p>
+              </div>
+            </Service>
+            <Service>
+              <img
+                src="/images/local-seo.png"
+                className="icon"
+                alt="Local SEO service."
+                title="Local SEO service."
+                loading="lazy"
+              />
+              <div>
+                <h3>Baltimore Local SEO Service</h3>
+                <p>
+                  Show up when it matters the most. And that's when people are
+                  searching for your services.
+                </p>
+                <p>
+                  I will turn your website into a lead generating machine. You
+                  can appear in the map pack, and the organic search and occupy
+                  more digital real estate than your competitors.
+                </p>
+                <p>
+                  It doesn't matter if you operate in Baltimore City or
+                  Baltimore County.
+                </p>
+                <p>
+                  Whether you're a solo Baltimore business owner or you have one
+                  hundred people working in your company.
+                </p>
+                <p>
+                  You can dominate the B'more local search results in your
+                  industry and attract the best leads and customers.
+                </p>
+              </div>
+            </Service>
+            <Service>
+              <img
+                src="/images/keyword-research.png"
+                className="icon"
+                alt="Link building service."
+                title="Link building service."
+                loading="lazy"
+              />
+              <div>
+                <h3>Keyword Research Service</h3>
+                <p>
+                  Finding the best and most profitable keywords for your
+                  business takes time and years of experience. I find the best
+                  keywords that attract the best clients and customers.
+                </p>
+                <p>Those that spend money with your business.</p>
+              </div>
+            </Service>
+            <Service>
+              <img
+                src="/images/seo-audit.png"
+                className="icon"
+                alt="SEO audit service."
+                title="SEO audit service."
+                loading="lazy"
+              />
+              <div>
+                <h3>SEO Audit Service</h3>
+                <p>
+                  It's been years and you haven't figured out why your business
+                  doesn't appear in the search results when you search for your
+                  services.
+                </p>
+                <p>I can help you fix that.</p>
+                <p>
+                  Find out what's stopping your website and your business from
+                  showing up in the search results. Get an SEO audit and
+                  discover what's holding your back, and how to fix so that you
+                  can get seen online.
+                </p>
+              </div>
+            </Service>
+          </Services>
+          <Services>
+            <Service>
+              <img
+                src="/images/link-building.png"
+                className="icon"
+                alt="Link building service."
+                title="Link building service."
+                loading="lazy"
+              />
+              <div>
+                <h3>Link Building Service</h3>
+                <p>
+                  Does your website have backlinks? Do you know what there are?
+                  If you don't have backlinks, chances are you won't rank high
+                  in Google.
+                </p>
+                <p>
+                  Backlinks are the trust factor that Google uses to rank you
+                  site.
+                </p>
+                <p>
+                  I'll find and get you the best backlinks that help your
+                  business gain trust with my safe link building methods.
+                </p>
+              </div>
+            </Service>
+            <Service>
+              <img
+                src="/images/national.png"
+                className="icon"
+                alt="Link building service."
+                title="Link building service."
+                loading="lazy"
+              />
+              <div>
+                <h3>National SEO Service</h3>
+                <p>
+                  Targeting customers across the entire U.S? I can do that too.
+                </p>
+                <p>
+                  I transform Google into your primary customer acquisition
+                  channel. I do this through a potent combination of an
+                  impactful organic SEO strategy, meticulous technical SEO
+                  (including user experience and site speed optimization),
+                  compelling content marketing, and strategic link building.
+                </p>
+                <p>
+                  The result of this comprehensive approach is an exponential
+                  boost in your organic website traffic and a substantial
+                  improvement in keyword rankings. Simply put, our national SEO
+                  strategies are designed not just to meet your expectations,
+                  but to surpass them, driving your business forward in the vast
+                  digital landscape.
+                </p>
+              </div>
+            </Service>
+          </Services>
+          <div className="center">
+            <Button>Get SEO Help Today</Button>
           </div>
-          <div>
-            <h3>Baltimore Local SEO Service</h3>
-            <p>Show up when it matters th most.</p>
-            <p>
-              My Baltimore SEO company will turn your website into a lead
-              generating machine. You can appear in the map pack, and the
-              organic search, occupying more online real estate than your
-              competitors.
-            </p>
-            <p>
-              It doesn't matter if you operate in Baltimore City or Baltimore
-              County.
-            </p>
-            <p>
-              Whether you're a solo baltimore business owner or you have one
-              hundred people working in your company.
-            </p>
-            <p>
-              You can dominate the B'more local search results in your industry
-              and attract the best leads and customers.
-            </p>
-          </div>
-          <div>
-            <h3>Keyword Research Service</h3>
-            <p>
-              Finding the best and most profitable keywords for your business
-              takes time and years of experience. I find the best keywords that
-              attract the best clients and customers.
-            </p>
-            <p>Those that spend money with your business.</p>
-          </div>
-          <div>
-            <h3>SEO Audit Service</h3>
-            <p>
-              It's been years and you haven't figured out why your business
-              doesn't appear in the search results when you search for your
-              services.
-            </p>
-            <p>I can help you fix that.</p>
-            <p>
-              Find out what's stopping your website and your business from
-              showing up in the search results. Get an SEO audit and discover
-              what's holding your back, and how to fix so that you can get seen
-              online.
-            </p>
-          </div>
-          <div>
-            <h3>Link Building Service</h3>
-            <p>
-              Does your website have backlinks? Do you know what there are? If
-              you don't have backlinks, chances are you won't rank high in
-              Google.
-            </p>
-            <p>
-              Backlinks are the trust factor that Google uses to rank you site.
-            </p>
-            <p>
-              I'll find and get you the best backlinks that help your business
-              gain trust with my safe link building methods.
-            </p>
-          </div>
-          <div>
-            <h3>National SEO Service</h3>
-          </div>
-          <Button>Get SEO Help Today</Button>
         </div>
       </section>
       <section>
@@ -170,110 +324,177 @@ export default function Home() {
             With All The Other Baltimore SEO Companies, Why Should You Work With
             Me?
           </h2>
-          <div>
-            <h3>I Focus on the Results</h3>
-            <p>
-              As an SEO specialist, my primary focus is on delivering tangible
-              results that drive your business forward.
-            </p>
-            <p>
-              I understand that SEO is not just about rankings and traffic, but
-              about generating leads, increasing sales, and growing your bottom
-              line. My strategies are designed with this end goal in mind,
-              seeking not just to improve your website's visibility, but to
-              ensure this visibility leads to conversions.
-            </p>
-            <p>
-              I monitor and analyze a variety of metrics to gauge the
-              effectiveness of my work, adjusting strategies as needed to
-              maximize results. Regular reports keep you informed about these
-              results, clearly illustrating the return on your investment.
-            </p>
-            <p>
-              I'm committed to holding myself accountable for your success and
-              will not rest until your SEO campaign delivers the impact it
-              should.
-            </p>
+          <Deliverables>
+            <img
+              src="/images/results.png"
+              alt="I focus on results."
+              title="I focus on results."
+              loading="lazy"
+            />
+            <div>
+              <h3>#1. I Focus on the Results</h3>
+              <p>
+                As an SEO specialist, my primary focus is on delivering tangible
+                results that drive your business forward.
+              </p>
+              <p>
+                I understand that SEO is not just about rankings and traffic,
+                but about generating leads, increasing sales, and growing your
+                bottom line. My strategies are designed with this end goal in
+                mind, seeking not just to improve your website's visibility, but
+                to ensure this visibility leads to conversions.
+              </p>
+              <p>
+                I monitor and analyze a variety of metrics to gauge the
+                effectiveness of my work, adjusting strategies as needed to
+                maximize results. Regular reports keep you informed about these
+                results, clearly illustrating the return on your investment.
+              </p>
+              <p>
+                I'm committed to holding myself accountable for your success and
+                will not rest until your SEO campaign delivers the impact it
+                should.
+              </p>
+            </div>
+          </Deliverables>
+          <Deliverables>
+            <img
+              src="/images/seo-campaign.png"
+              className="grid-item-1"
+              alt="I build custom SEO campaigns"
+              title="I build custom SEO campaigns."
+              loading="lazy"
+            />
+            <div className="grid-item-2">
+              <h3>#2. I Build Custom SEO Campaigns</h3>
+              <p>
+                I specialize in creating tailor-made SEO campaigns that cater to
+                the unique needs of each business.
+              </p>
+              <p>
+                Instead of one-size-fits-all approaches, I believe in curating
+                strategies that reflect your specific goals, industry, and
+                target audience.
+              </p>
+              <p>
+                By thoroughly understanding your business and its online
+                objectives, I ensure that every aspect of the campaign, from
+                keyword selection to content creation, is customized to maximize
+                your online visibility. I also focus on ongoing optimization,
+                routinely assessing and refining the strategy based on analytics
+                and performance data.
+              </p>
+              <p>
+                This personalized approach allows me to drive more organic
+                traffic to your website and improve its search engine ranking.
+              </p>
+            </div>
+          </Deliverables>
+          <Deliverables>
+            <img
+              src="/images/seo-expert.png"
+              alt="I know what I'm doing."
+              title="I know what I'm doing."
+              loading="lazy"
+            />
+            <div>
+              <h3>#3. I Know What I'm Doing</h3>
+              <p>
+                My expertise is not based on theoretical knowledge alone, but
+                also on years of practical experience helping businesses improve
+                their online visibility and grow. I've honed my skills across a
+                variety of industries, and have a proven track record of
+                delivering results.
+              </p>
+              <p>
+                My approach to SEO is holistic, encompassing everything from
+                keyword research and content creation, to technical SEO and link
+                building. I keep up-to-date with the latest SEO trends and
+                algorithm changes, ensuring my strategies are always effective
+                and relevant. I also understand the importance of clear
+                communication and collaboration with my clients, working closely
+                with them to achieve their goals. When you choose to work with
+                me, you're choosing a professional who knows the ins and outs of
+                SEO, and how to make it work for your business.
+              </p>
+            </div>
+          </Deliverables>
+          <Deliverables>
+            <img
+              src="/images/transperancy.png"
+              className="grid-item-1"
+              alt="I am 100% transparent."
+              title="I am 100% transparent."
+              loading="lazy"
+            />
+            <div className="grid-item-2">
+              <h3>#4. I am 100% Transparent</h3>
+              <p>
+                I firmly believe in keeping clients fully informed about their
+                SEO campaigns at every stage, explaining not just what I'm
+                doing, but why I'm doing it. I provide regular, detailed reports
+                showcasing the results of my work, including key performance
+                indicators, metrics, and achieved milestones.
+              </p>
+              <p>
+                I am also upfront about any challenges encountered and how I
+                plan to overcome them. In every communication, my goal is to
+                make the complex world of SEO understandable and accessible.
+                This way, you're not just a spectator, but a knowledgeable
+                participant in your own SEO strategy. Being 100% transparent
+                means building trust and fostering a collaborative, honest
+                relationship with my clients.
+              </p>
+            </div>
+          </Deliverables>
+          <Deliverables>
+            <img
+              src="/images/never-work-with-competiton.png"
+              alt="I never work with your competiton."
+              title="I never work with your competiton."
+              loading="lazy"
+            />
+            <div>
+              <h3>#5. I Never Work With Your Competition</h3>
+              <p>
+                My policy is simple and straightforward: I never work with your
+                competition.
+              </p>
+              <p>
+                I strongly believe in providing my clients with exclusive
+                services, and this means dedicating my skills and resources to a
+                single business per industry in a given market area. This
+                principle ensures that I am fully invested in your success,
+                without any conflicting interests.
+              </p>
+              <p>
+                It also guarantees that the strategies, insights, and
+                competitive advantages I develop for your business are unique to
+                you and not shared with your competitors.
+              </p>
+              <p>
+                I am committed to this principle of exclusivity as it enables me
+                to focus completely on helping your business dominate your
+                industry's search engine results.
+              </p>
+            </div>
+          </Deliverables>
+          <div className="center">
+            <Button>Book Your Strategy Call Today!</Button>
           </div>
-          <div>
-            <h3>I Build Custom SEO Campaigns</h3>
-            <p>
-              I specialize in creating tailor-made SEO campaigns that cater to
-              the unique needs of each business.
-            </p>
-            <p>
-              Instead of one-size-fits-all approaches, I believe in curating
-              strategies that reflect your specific goals, industry, and target
-              audience.
-            </p>
-            <p>
-              By thoroughly understanding your business and its online
-              objectives, I ensure that every aspect of the campaign, from
-              keyword selection to content creation, is customized to maximize
-              your online visibility. I also focus on ongoing optimization,
-              routinely assessing and refining the strategy based on analytics
-              and performance data.
-            </p>
-            <p>
-              This personalized approach allows me to drive more organic traffic
-              to your website and improve its search engine ranking.
-            </p>
-          </div>
-          <div>
-            <h3>I'm a Real Baltimore SEO Expert</h3>
-          </div>
-          <div>
-            <h3>I am 100% Transparent</h3>
-            <p>
-              I firmly believe in keeping clients fully informed about their SEO
-              campaigns at every stage, explaining not just what I'm doing, but
-              why I'm doing it. I provide regular, detailed reports showcasing
-              the results of my work, including key performance indicators,
-              metrics, and achieved milestones.
-            </p>
-            <p>
-              I am also upfront about any challenges encountered and how I plan
-              to overcome them. In every communication, my goal is to make the
-              complex world of SEO understandable and accessible. This way,
-              you're not just a spectator, but a knowledgeable participant in
-              your own SEO strategy. Being 100% transparent means building trust
-              and fostering a collaborative, honest relationship with my
-              clients.
-            </p>
-          </div>
-          <div>
-            <h3>I Never Work With Your Competition</h3>
-            <p>
-              My policy is simple and straightforward: I never work with your
-              competition.
-            </p>
-            <p>
-              I strongly believe in providing my clients with exclusive
-              services, and this means dedicating my skills and resources to a
-              single business per industry in a given market area. This
-              principle ensures that I am fully invested in your success,
-              without any conflicting interests.
-            </p>
-            <p>
-              It also guarantees that the strategies, insights, and competitive
-              advantages I develop for your business are unique to you and not
-              shared with your competitors.
-            </p>
-            <p>
-              I am committed to this principle of exclusivity as it enables me
-              to focus completely on helping your business dominate your
-              industry's search engine results.
-            </p>
-          </div>
-          <Button>Book Your Strategy Call Today!</Button>
         </div>
       </section>
       <section id="faq">
         <div className="small-container">
-          <h2>Frequently Asked Questions about Baltimore SEO</h2>
+          <h2 className="title">
+            Frequently Asked Questions about Baltimore SEO
+          </h2>
           <div>
             <h3>How much does SEO cost for a business in Baltimore?</h3>
-            <p>Well how much is ti costing you by not doing SEO?</p>
+            <p>
+              It can cost between $1500 and $5000 for SEO services in Baltimore.
+            </p>
+            <p>But how much is it costing you not doing SEO?</p>
             <p>Let's see</p>
             <ul className="faq-list">
               <li>
@@ -402,9 +623,9 @@ export default function Home() {
             </ul>
           </div>
           <div>
-            <h3>Can You Gaurantee #1 Rankings in Google?</h3>
+            <h3>Can You Guarantee #1 Rankings in Google?</h3>
             <p>No.</p>
-            <p>No one can.</p>
+            <p>No one can guarantee you #1 rankings on Google.</p>
           </div>
         </div>
       </section>
@@ -457,3 +678,49 @@ export default function Home() {
     </main>
   )
 }
+
+const Deliverables = styled.div`
+  margin: 2rem 0;
+  img {
+    max-width: 15rem;
+    margin: 4rem auto;
+  }
+  @media screen and (min-width: 900px) {
+    img {
+      max-width: 15rem;
+    }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .grid-item-1 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .grid-item-2 {
+    grid-column: 1;
+  }
+`
+
+const Services = styled.div`
+  margin: 2rem 0;
+  @media screen and (min-width: 900px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+`
+
+const Service = styled.div`
+  display: flex;
+  flex-direction: row;
+  img {
+    width: 60px;
+    height: 60px;
+    margin-top: 1rem;
+    margin-right: 2rem;
+  }
+`
