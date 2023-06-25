@@ -259,6 +259,7 @@ export default function Home() {
               <img
                 src="/images/one-on-one-consulting.png"
                 className="icon"
+                alt="One on one consulting."
                 loading="lazy"
               />
               <div>
