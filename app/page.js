@@ -760,7 +760,7 @@ export default function Home() {
               choice for clients who want to grow their digital presence.
             </p>
             <p>
-              I believe in transparency, and constant communication. , I also
+              I believe in transparency, and constant communication. I also
               belive in educating my clients about the processes and techniques.
             </p>
             <p>I want to empowering them to make informed decisions.</p>
