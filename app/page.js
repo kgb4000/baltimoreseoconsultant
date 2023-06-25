@@ -3,6 +3,8 @@ import Link from 'next/link'
 import styled from 'styled-components'
 import Button from '@/components/Button'
 
+const calendly = 'https://calendly.com/bowieseo/seo-consultation'
+
 export default function Home() {
   return (
     <main>
@@ -42,8 +44,13 @@ export default function Home() {
               Need a Baltimore SEO consultant that can actually get you more
               traffic, leads, and sales from Google?
             </p>
-            <Button>Book Your SEO Consultation!</Button>
-            <p>If you're serious, let's have a Zoom call!</p>
+            <a href={calendly}>
+              <Button>Book Your SEO Consultation!</Button>
+            </a>
+            <p>
+              If you're serious, book your consultation, and let's have a Zoom
+              call!
+            </p>
           </div>
         </div>
       </div>
@@ -68,17 +75,17 @@ export default function Home() {
               <h3>#1. Your Competitors are Already Doing SEO</h3>
               <p>
                 You see it every time you search for your services. Your
-                competitors on the first page. Don’t believe me? Search for one
-                of your services and see who comes up first, second, or third.
-                It’s not by luck or by accident. They understand the immense
-                value of being easily discoverable online and are using SEO
-                strategies to improve their visibility, attract more customers,
-                and grow their businesses.
+                competitors are on the first page. Don't believe me? Search for
+                one of your services and see who comes up first, second, or
+                third. It's not by luck or by accident. They understand the
+                immense value of being easily discoverable online and are using
+                SEO strategies to improve their visibility, attract more
+                customers, and grow their businesses.
               </p>
               <p>
-                If your business isn't utilizing SEO, you're at risk of falling
-                behind, losing potential customers to competitors who are
-                appearing in search results instead of you.
+                If your business is utilizing SEO, you can avoid falling behind,
+                losing potential customers to competitors appearing in search
+                results instead of you.
               </p>
               <p>
                 Every day that passes without an SEO strategy is an opportunity
@@ -88,9 +95,9 @@ export default function Home() {
                 strategy, and immediate results are rare.
               </p>
               <p>
-                If your competitors are doing SEO and you're not, it's not just
-                a potential loss of customers, it's an ongoing loss of market
-                share that becomes increasingly difficult to reclaim.
+                If your competitors are doing SEO and you're not, it's more than
+                just a potential loss of customers. It's an ongoing loss of
+                market share that becomes increasingly difficult to reclaim.
               </p>
               <p>This brings us to the second reason.</p>
             </div>
@@ -114,14 +121,14 @@ export default function Home() {
                 ensuring your business appears prominently in local search
                 results when potential customers are looking for your services.
                 This increased visibility directly contributes to higher website
-                traffic, more leads, and ultimately, more sales.
+                traffic, leads, and, ultimately, more sales.
               </p>
               <p>
-                SEO also enhances user experience on your site, making it more
-                likely that site visitors will become customers. Additionally,
-                SEO can position your business as an industry leader, boosting
-                your credibility among customers. It's also worth noting that
-                the benefits of SEO are long-term, making it a sustainable
+                SEO also enhances the user experience on your site, making it
+                more likely that site visitors will become customers.
+                Additionally, SEO can position your business as an industry
+                leader, boosting customer credibility. It's also worth noting
+                that the benefits of SEO are long-term, making it a sustainable
                 competitive advantage.
               </p>
               <p>
@@ -134,14 +141,39 @@ export default function Home() {
           </Reason>
           <Reason>
             <img
-              src="/images/leads.png"
+              src="/images/rankings.png"
               className="grid-item-1"
+              alt="I know what I'm doing."
+              title="I know what I'm doing."
+              loading="lazy"
+            />
+            <div className="grid-item-2">
+              <h3>#3. More People Will See Your Business on Google</h3>
+              <p>
+                As your business appears on the first page of Google, your web
+                presence increases, ensuring that a larger audience sees your
+                company and website.
+              </p>
+              <p>
+                Being on the first page is like being on the main street of a
+                busy city - more people will pass by your business. The more
+                people who see your business, the more likely they will visit
+                your website. And when more people visit your website, you have
+                a better chance of getting more customers.
+              </p>
+              <p>This lead to the fourth reason.</p>
+            </div>
+          </Reason>
+          <Reason>
+            <img
+              src="/images/leads.png"
+              className="grid-item-2"
               alt="Get more leads."
               title="Get more leads."
               loading="lazy"
             />
-            <div className="grid-item-2">
-              <h3>#3. You Get Leads All Day, Everyday</h3>
+            <div className="grid-item-1">
+              <h3>#4. You Get Leads All Day, Everyday</h3>
               <p>Your website will work for you around the clock.</p>
               <p>
                 Unlike traditional business models, a well-optimized website is
@@ -152,7 +184,7 @@ export default function Home() {
                 This persistent lead generation is made possible because SEO
                 improves your visibility on search engines, making your business
                 easily discoverable by people searching for the products or
-                services you offer. These are not just any leads, but quality
+                services you offer. These are not just any leads but quality
                 leads, as search engine users are typically actively seeking
                 solutions, making them more likely to convert.
               </p>
@@ -160,23 +192,13 @@ export default function Home() {
                 Furthermore, the leads generated from SEO are not limited by
                 geography; your business can attract local, national, and even
                 global customers. SEO, therefore, is not just a marketing
-                strategy, but an essential business tool that ensures your brand
+                strategy but an essential business tool that ensures your brand
                 and offerings are visible and generating leads every hour of
                 every day.
               </p>
-              <p>This lead to the fourth reason.</p>
-            </div>
-          </Reason>
-          <Reason>
-            <img
-              src="/images/rankings.png"
-              className="grid-item-2"
-              alt="I know what I'm doing."
-              title="I know what I'm doing."
-              loading="lazy"
-            />
-            <div className="grid-item-1">
-              <h3>#4. More People Will See Your Business on Google</h3>
+              <p>
+                This leads us to our fifth reason why doing SEO is so important.
+              </p>
             </div>
           </Reason>
           <Reason>
@@ -190,8 +212,8 @@ export default function Home() {
             <div className="grid-item-2">
               <h3>#5. It’s More Cost-effective than Social Media</h3>
               <p>
-                Unlike social media platforms, where ongoing ad spend is often
-                necessary to reach a larger audience, the organic traffic
+                Unlike social media platforms, where ongoing ad spending is
+                often necessary to reach a larger audience, the organic traffic
                 generated through SEO comes at no additional per-click or
                 per-impression cost.
               </p>
@@ -213,14 +235,16 @@ export default function Home() {
                 return on investment.
               </p>
               <p>
-                In essence, while social media can be an effective part of your
+                In essence, while social media can be a practical part of your
                 marketing mix, SEO is often the more cost-effective strategy for
                 sustainable, long-term growth.
               </p>
             </div>
           </Reason>
           <div className="center">
-            <Button>Book SEO Strategy Call Now!</Button>
+            <a href={calendly}>
+              <Button>Book Your SEO Consultation!</Button>
+            </a>
           </div>
         </div>
       </section>
@@ -228,7 +252,7 @@ export default function Home() {
         <div className="container">
           <h2 className="title">My Baltimore SEO Services</h2>
           <p className="subtext">
-            Here's what I give Baltimore business owners to succeed online.
+            Here's what I give Baltimore business owners to succeed online
           </p>
           <Services>
             <Service>
@@ -240,12 +264,12 @@ export default function Home() {
               <div>
                 <h3>1-on-1 SEO Consulting</h3>
                 <p>
-                  Need some help with search engine optimization to get real
+                  Need some help with search engine optimization to get actual
                   results?
                 </p>
-                <p>Work with a pro.</p>
+                <p>Work with a professional.</p>
                 <p>
-                  Work with a top Baltimore SEO specialist one-on-one and let's
+                  Work with a top Baltimore SEO specialist one-on-one, and let's
                   get you to the top of the search results.
                 </p>
                 <p>
@@ -270,8 +294,8 @@ export default function Home() {
                   searching for your services.
                 </p>
                 <p>
-                  I will turn your website into a lead generating machine. You
-                  can appear in the map pack, and the organic search and occupy
+                  I will turn your website into a lead-generating machine. You
+                  can appear in the map pack and the organic search and occupy
                   more digital real estate than your competitors.
                 </p>
                 <p>
@@ -317,15 +341,15 @@ export default function Home() {
               <div>
                 <h3>SEO Audit Service</h3>
                 <p>
-                  It's been years and you haven't figured out why your business
-                  doesn't appear in the search results when you search for your
-                  services.
+                  It's been years, and you have yet to figure out why your
+                  business doesn't appear in the search results when you search
+                  for your services.
                 </p>
                 <p>I can help you fix that.</p>
                 <p>
                   Find out what's stopping your website and your business from
                   showing up in the search results. Get an SEO audit and
-                  discover what's holding your back, and how to fix so that you
+                  discover what's holding you back and how to fix it so that you
                   can get seen online.
                 </p>
               </div>
@@ -345,15 +369,15 @@ export default function Home() {
                 <p>
                   Does your website have backlinks? Do you know what there are?
                   If you don't have backlinks, chances are you won't rank high
-                  in Google.
+                  on Google.
                 </p>
                 <p>
-                  Backlinks are the trust factor that Google uses to rank you
+                  Backlinks are the trust factor that Google uses to rank your
                   site.
                 </p>
                 <p>
                   I'll find and get you the best backlinks that help your
-                  business gain trust with my safe link building methods.
+                  business gain trust with my safe link-building methods.
                 </p>
               </div>
             </Service>
@@ -368,7 +392,8 @@ export default function Home() {
               <div>
                 <h3>National SEO Service</h3>
                 <p>
-                  Targeting customers across the entire U.S? I can do that too.
+                  Are you targeting customers across the entire U.S.? I can do
+                  that too.
                 </p>
                 <p>
                   I transform Google into your primary customer acquisition
@@ -389,14 +414,16 @@ export default function Home() {
             </Service>
           </Services>
           <div className="center">
-            <Button>Get SEO Help Today</Button>
+            <a href={calendly}>
+              <Button>Get SEO Help Today</Button>
+            </a>
           </div>
         </div>
       </section>
       <section>
         <div className="container">
           <h2 className="title">
-            With All The Other Baltimore SEO Companies, Why Should You Work With
+            With All the Other Baltimore SEO Companies, Why Should You Work With
             Me?
           </h2>
           <Deliverables>
@@ -555,7 +582,9 @@ export default function Home() {
             </div>
           </Deliverables>
           <div className="center">
-            <Button>Book Your Strategy Call Today!</Button>
+            <a href={calendly}>
+              <Button>Book Your Strategy Call Today!</Button>
+            </a>
           </div>
         </div>
       </section>
@@ -700,11 +729,11 @@ export default function Home() {
           <div>
             <h3>Can You Guarantee #1 Rankings in Google?</h3>
             <p>No.</p>
-            <p>No one can guarantee you #1 rankings on Google.</p>
+            <p>No one can guarantee you the #1 rankings on Google.</p>
           </div>
         </div>
       </section>
-      <section id="me">
+      <section id="me" className="hero">
         <div className="small-container">
           <h2 className="title">
             Meet the Baltimore SEO Expert Ready to Get You More Traffic and Earn
@@ -720,9 +749,9 @@ export default function Home() {
           <div>
             <p>
               Hello, I’m Kester, and I have been doing search engine
-              optimization in Maryland for over 5 years. I have ranked
+              optimization in Maryland for over five years. I have ranked
               businesses on the first page and top 5 positions in some
-              competitive industries, and I know I can help your business.
+              competitive industries, and I can help your business.
             </p>
             <p>
               My expertise, long-standing commitment to learning, and
@@ -743,7 +772,9 @@ export default function Home() {
             SEO results (fast). Book your SEO consultation now:
           </p>
           <div className="center">
-            <Button>Book Your SEO Consultation Now</Button>
+            <a href={calendly}>
+              <Button>Book Your SEO Consultation Now</Button>
+            </a>
           </div>
         </div>
       </section>
