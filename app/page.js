@@ -16,7 +16,7 @@ export default function Home() {
             alt="Baltimore SEO Consultant"
             title="Baltimore SEO Consultant"
             width="250px"
-            heoght="auto"
+            height="auto"
           />
           <nav>
             <ul className="nav">
