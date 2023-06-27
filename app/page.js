@@ -73,26 +73,34 @@ export default function Home() {
             />
             <div className="grid-item-2">
               <h3>#1. Your Competitors are Already Doing SEO</h3>
+              <p>You see it every time you search for your services.</p>
+              <p>Your competitors are on the first page.</p>
+              <p>Don't believe me?</p>
               <p>
-                You see it every time you search for your services. Your
-                competitors are on the first page. Don't believe me? Search for
-                one of your services and see who comes up first, second, or
-                third. It's not by luck or by accident. They understand the
-                immense value of being easily discoverable online and are using
-                SEO strategies to improve their visibility, attract more
-                customers, and grow their businesses.
+                Search for one of your services and see who comes up first,
+                second, or third. It's not by luck or by accident.
               </p>
               <p>
-                If your business is utilizing SEO, you can avoid falling behind,
-                losing potential customers to competitors appearing in search
-                results instead of you.
+                They understand the immense value of being easily discoverable
+                online and are using SEO strategies to improve their visibility,
+                attract more customers, and grow their businesses.
               </p>
+              <p>
+                If your business is not doing SEO, you are falling behind and
+                losing potential customers to competitors.
+              </p>
+              <p>Your customers are finding your competitors instead of you.</p>
               <p>
                 Every day that passes without an SEO strategy is an opportunity
-                for competitors to consolidate their online presence and
-                reputation. Additionally, the longer you wait to start SEO, the
-                more ground you'll have to make up. Remember, SEO is a long-term
-                strategy, and immediate results are rare.
+                for competitors to boost their online presence and reputation.
+              </p>
+              <p>
+                Also, the longer you wait to start SEO, the more ground you'll
+                have to make up.
+              </p>
+              <p>
+                Remember, SEO is a long-term strategy, and immediate results are
+                rare.
               </p>
               <p>
                 If your competitors are doing SEO and you're not, it's more than
