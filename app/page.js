@@ -503,7 +503,7 @@ export default function Home() {
           </Deliverables>
           <Deliverables>
             <img
-              src="/images/seo-expert.png"
+              src="/images/seo-expert.webp"
               alt="I know what I'm doing."
               title="I know what I'm doing."
               loading="lazy"
@@ -605,7 +605,8 @@ export default function Home() {
           <div>
             <h3>How much does SEO cost for a business in Baltimore?</h3>
             <p>
-              It can cost between $1500 and $5000 for SEO services in Baltimore.
+              It can cost between $1500 and $5000 a month for SEO services in
+              Baltimore.
             </p>
             <p>But how much is it costing you not doing SEO?</p>
             <p>Let's see</p>
@@ -773,6 +774,10 @@ export default function Home() {
               belive in educating my clients about the processes and techniques.
             </p>
             <p>I want to empowering them to make informed decisions.</p>
+            <p>
+              Let me be your SEO partner, and together we will transform and
+              elevate your digital presence and achieve remarkable results.
+            </p>
           </div>
         </div>
       </section>
